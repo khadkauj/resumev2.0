@@ -122,7 +122,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
     profileImageSrc: profilePic,
-    description: "I enjoy working on challenging projects that require me to continuously learn and improve my skills. My main interest lies in ReactJS, Firebase, AWS, web penetration testing and I love working with other technologies like Python, Docker. &nbsp; In addition, I find great satisfaction in breaking and debugging Linux systems, including Ubuntu and Kali.    As a person, I am detail-oriented, reliable, and driven. I am always willing to take on new challenges and am comfortable working in fast-paced environments. In my free time, I enjoy keeping up with the latest technological trends and watching docu series.",
+    description: "I enjoy working on challenging projects that require me to continuously learn and improve my skills. My main interest lies in ReactJS, Firebase, AWS, web penetration testing and I love working with other technologies like Python, Docker. In addition, I find great satisfaction in breaking and debugging Linux systems, including Ubuntu and Kali.    As a person, I am detail-oriented, reliable, and driven. I am always willing to take on new challenges and am comfortable working in fast-paced environments. In my free time, I enjoy keeping up with the latest technological trends and watching docu series.",
     aboutItems: [
         { label: 'Location', text: 'Bremen, Germany', Icon: MapIcon },
         { label: 'Age', text: '22', Icon: CalendarIcon },
@@ -355,7 +355,7 @@ export const education: TimelineItem[] = [
         date: 'Sep 2020 - Aug 2023',
         location: 'Jacobs University Bremen',
         title: 'Bsc. Computer Science',
-        content: <p>Currently pursuing a degree in Computer Science with a minor in Economicss. Expected to graduate by 31/08/2023.</p>,
+        content: <p className='text-left'>Currently pursuing a degree in Computer Science with a minor in Economicss. Expected to graduate by 31/08/2023.</p>,
     },
 
 ];
@@ -366,7 +366,7 @@ export const experience: TimelineItem[] = [
         location: 'Hamburg, Germany',
         title: 'Frontend Developer and Ab Tester',
         content: (
-            <div className='ml-5'>
+            <div className='ml-5 text-left'>
                 <li>Collaborated with the design team to translate wireframes into visually appealing and user-friendly interfaces using HTML5, CSS3, and ReactJs.</li>
                 <li>Implemented and analyzed A/B tests using Ab Tasty, presenting findings to the marketing team </li>
                 <li>Conducted penetration testing on the main websites of the company to identify security vulnerabilities.</li>
@@ -378,7 +378,7 @@ export const experience: TimelineItem[] = [
         location: 'Onea Care gmbh',
         title: 'Frontend Developer',
         content: (
-            <div className='ml-5'>
+            <div className='ml-5 text-left'>
                 <li>Designed and implemented new features, such as a chat box, for the existing web application using Angular,</li>
                 <li>Developed dynamic JSON forms for different customer requirements using NGX Formly</li>
                 <li>Built an efficient server-side using NestJs and GraphQL.</li>
