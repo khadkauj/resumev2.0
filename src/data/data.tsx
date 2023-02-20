@@ -154,82 +154,59 @@ export const skills: SkillGroup[] = [
             },
         ],
     },
-    // {
-    //   name: 'Web development',
-    //   skills: [
-    //     {
-    //       name: 'Frontend',
-    //       level: 8,
-    //     },
-    //     {
-    //       name: 'Backend',
-    //       level: 7,
-    //     },
-    //     {
-    //       name: 'Desing',
-    //       level: 7,
-    //     },
-    //     {
-    //       name: 'Testing',
-    //       level: 7,
-    //     },
-    //   ],
-    // },
-    // {
-    //   name: 'Backend development',
-    //   skills: [
-    //     {
-    //       name: 'Node.js',
-    //       level: 8,
-    //     },
-    //     {
-    //       name: 'Rust',
-    //       level: 5,
-    //     },
-    //     {
-    //       name: 'Golang',
-    //       level: 4,
-    //     },
-    //   ],
-    // },
-    // {
-    //   name: 'Mobile development',
-    //   skills: [
-    //     {
-    //       name: 'React Native',
-    //       level: 9,
-    //     },
-    //     {
-    //       name: 'Flutter',
-    //       level: 4,
-    //     },
-    //     {
-    //       name: 'Swift',
-    //       level: 3,
-    //     },
-    //   ],
-    // },
     {
-        name: 'IT skills',
+      name: 'Web development',
+      skills: [
+        {
+          name: 'Frontend: React, Next, Flask,...',
+          level: 8,
+        },
+        {
+          name: 'Backend: Nest, Express, FastAPI,...',
+          level: 7,
+        },
+        {
+          name: 'Design: Figma, Canva,...',
+          level: 7,
+        },
+        {
+            name: 'Blockchain: Solidity, Ethereum ',
+            level: 7,
+          },
+        
+      ],
+    },
+    {
+      name: 'Cloud & Devops',
+      skills: [
+        {
+          name: 'AWS',
+          level: 7,
+        },
+        {
+          name: 'Firebase',
+          level: 9,
+        },
+        {
+          name: 'Docker, Kubernetes, Github',
+          level: 6,
+        },
+      ],
+    },
+    {
+        name: 'Security',
         skills: [
             {
-                name: 'Web development',
-                level: 9,
-            },
-            {
-                name: 'Cloud & Devops',
-                level: 7,
-            },
-            {
-                name: 'Cyber Security',
+                name: 'Web Penetration Testing',
                 level: 6,
             },
             {
-                name: 'BlockChain',
-                level: 4,
+                name: 'System Administration',
+                level: 6,
             },
         ],
     },
+    
 ];
 
 /**
