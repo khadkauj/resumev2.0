@@ -402,14 +402,24 @@ export const contact: ContactSection = {
             href: 'mailto:khadkauj@gmail.com',
         },
         {
-            type: ContactType.Location,
-            text: 'Bremen, Germany',
-            href: 'https://www.google.com/maps/place/Bremen',
+            type: ContactType.WhatsApp,
+            text: 'WhatsApp(+9779815961880/+4915733733799)',
+            href: ' https://wa.me/+9779815961880',
+        },
+        {
+            type: ContactType.LinkedIn,
+            text: 'Khadkauj',
+            href: 'https://linkedin.com/in/khadkauj',
         },
         {
             type: ContactType.Github,
-            text: 'khadkauj',
+            text: 'Khadkauj',
             href: 'https://github.com/khadkauj',
+        },
+        {
+            type: ContactType.Location,
+            text: 'Bremen, Germany',
+            href: 'https://www.google.com/maps/place/Bremen',
         },
     ],
 };

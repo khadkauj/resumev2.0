@@ -1,4 +1,4 @@
-import {DeviceMobileIcon, LocationMarkerIcon, MailIcon} from '@heroicons/react/outline';
+import {ChatAltIcon, DeviceMobileIcon, LocationMarkerIcon, MailIcon} from '@heroicons/react/outline';
 import classNames from 'classnames';
 import {FC, memo} from 'react';
 
@@ -21,6 +21,8 @@ const ContactValueMap: Record<ContactType, ContactValue> = {
     [ContactType.Facebook]: {Icon: FacebookIcon, srLabel: 'Facebook'},
     [ContactType.Twitter]: {Icon: TwitterIcon, srLabel: 'Twitter'},
     [ContactType.Instagram]: {Icon: InstagramIcon, srLabel: 'Instagram'},
+    [ContactType.WhatsApp]: {Icon: ChatAltIcon, srLabel: 'WhatsApp'},
+
 };
 
 const Contact: FC = memo(() => {
@@ -33,7 +35,7 @@ const Contact: FC = memo(() => {
                     <h2 className="text-2xl font-bold text-white">{headerText}</h2>
                 </div>
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-                    <div className="order-2 col-span-1 md:order-1 ">
+                    <div className="order-2 col-span-1 md:order-1 hidden ">
                         <ContactForm/>
                     </div>
                     <div className="order-1 col-span-1 flex flex-col gap-y-4 md:order-2">
